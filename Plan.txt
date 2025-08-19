@@ -1,0 +1,142 @@
+Day 1: Project Setup & Foundational Data Structures
+Task 1 (1 hour): Project Setup
+
+Create a new GitHub repository named java-dsa-toolkit.
+
+Initialize a new Java project in your IDE (IntelliJ IDEA or VS Code).
+
+Create the package structure: com.dsa.toolkit.datastructures, com.dsa.toolkit.algorithms, and com.dsa.toolkit.main.
+
+Write the initial README.md file with a title and a brief project description. Commit and push your changes.
+
+Task 2 (2-3 hours): Linked List & Stack
+
+Linked List:
+
+Create the Node class.
+
+Create the SinglyLinkedList class with a head field.
+
+Implement addAtHead(), addAtTail(), delete(), and printList() methods.
+
+Test your implementation by creating a list in the main method and calling these functions.
+
+Stack:
+
+Create the Stack class.
+
+Use an ArrayList as the underlying data structure for a quick implementation.
+
+Implement push(), pop(), and peek(). Add a check for an empty stack.
+
+Test your stack implementation in the main method.
+
+Day 2: More Data Structures & Introduction to Algorithms
+Task 1 (2 hours): Queue & Graph
+
+Queue:
+
+Create the Queue class.
+
+Use a LinkedList as the underlying data structure for an efficient implementation.
+
+Implement enqueue() and dequeue().
+
+Test your queue implementation.
+
+Graph (Adjacency List):
+
+Create the Graph class.
+
+Use a HashMap<Integer, List<Integer>> to represent the adjacency list.
+
+Implement a method addEdge(int u, int v, boolean isDirected) to add edges.
+
+Implement a printGraph() method to visualize the structure.
+
+Task 2 (1-2 hours): Sorting Algorithms
+
+Binary Search:
+
+Create a Search class in the algorithms package.
+
+Implement binarySearch(int[] arr, int target) for a sorted array.
+
+Merge Sort:
+
+Create a MergeSort class.
+
+Implement the sort() method and the merge() helper function. Focus on getting the recursive logic right.
+
+Test it with a sample array in your main method.
+
+Day 3: Advanced Algorithm & Cleanup
+Task 1 (3-4 hours): Dijkstra's Algorithm
+
+This is the most complex task, so dedicate the entire day to it.
+
+Create a Dijkstra class in your algorithms package.
+
+Your dijkstra(Graph graph, int startNode) method will need a PriorityQueue to store nodes to visit.
+
+You will also need a HashMap or an array to store distances.
+
+Focus on the logic:
+
+Initialize distances.
+
+Push the start node to the priority queue.
+
+Loop while the priority queue is not empty.
+
+Extract the minimum distance node.
+
+Update distances of its neighbors.
+
+Test it with a small, simple graph to verify the output.
+
+Day 4: Refinement & User Interface
+Task 1 (1-2 hours): Code Refinement & Comments
+
+Go through all your code. Ensure variable names are clear.
+
+Add Javadoc comments to each class and method. This is a crucial step for a professional project. Explain what each method does, its parameters, and its return value.
+
+Task 2 (2-3 hours): Main Class & Menu System
+
+Go to your com.dsa.toolkit.main.Main class.
+
+Build a user-friendly console menu using a Scanner for input and a switch statement.
+
+The menu should allow the user to:
+
+Run the linked list demonstration.
+
+Run the sorting algorithm demonstration (e.g., Quick Sort vs. Merge Sort).
+
+Run the Dijkstra's pathfinding demonstration.
+
+This will provide the "modular architecture reducing setup time" feature you mentioned in your resume.
+
+Day 5: Final Touches & Documentation
+Task 1 (1-2 hours): Final Testing & Bug Fixes
+
+Run through your menu system again.
+
+Check for edge cases (e.g., empty lists, single-element arrays).
+
+Fix any bugs or logical errors.
+
+Task 2 (2-3 hours): Finalizing README & GitHub
+
+Update your README.md with the final features.
+
+Add a "How to Use" section with clear instructions on how to run the project.
+
+Add a "Contributing" section (even if it's just for show, it's good practice).
+
+Take some good-looking screenshots of your terminal output to include in the README.
+
+Commit and push your final changes to GitHub.
+
+Check your GitHub profile to ensure the project looks polished and professional.
