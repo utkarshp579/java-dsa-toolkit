@@ -31,6 +31,9 @@ Implement push(), pop(), and peek(). Add a check for an empty stack.
 
 Test your stack implementation in the main method.
 
+
+
+
 Day 2: More Data Structures & Introduction to Algorithms
 Task 1 (2 hours): Queue & Graph
 
@@ -53,6 +56,8 @@ Use a HashMap<Integer, List<Integer>> to represent the adjacency list.
 Implement a method addEdge(int u, int v, boolean isDirected) to add edges.
 
 Implement a printGraph() method to visualize the structure.
+
+
 
 Task 2 (1-2 hours): Sorting Algorithms
 
